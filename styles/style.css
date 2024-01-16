@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav .nav-pic{
+    display: flex;
+    gap:1rem;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+/* shared styles*/
+span{
+    color: #FF5400;
+}
+nav img{
+    margin-top: 3.2rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin-top: 4.5rem;
+    color:  #424247;
+text-align: center;
+font-family: Mulish;
+font-size: 1.2rem;
+font-weight: 400;
+}
