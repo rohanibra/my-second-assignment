@@ -43,7 +43,7 @@ font-weight: 400;
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     border-radius: 16px;
     width: 1170px;
@@ -84,6 +84,46 @@ form input{
 background: #FF5400;
 
 }
+.hill{
+    display: flex;
+   max-width: 1170px;
+   margin: 80px auto;
+   gap: 53px;
+}
+.hill-text h3{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+
+font-weight: 800;
+
+}
+.hill-text p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+gap: 24px;
+font-weight: 400;
+
+}
+.hill-text li{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+gap: 24px;
+line-height: 26px
+}
+.hill-text button{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+color: #FFF;
+}
+
 
 
 
@@ -114,7 +154,12 @@ background: #FF5400;
         width: 335px;
         
     }
-    
+    .hill{
+        flex-direction: column;
+    }
+    .hill img{
+        width: 100%;
+    }
     
         
   
