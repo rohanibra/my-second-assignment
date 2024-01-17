@@ -123,6 +123,91 @@ background: #FF5400;
 border: none;
 color: #FFF;
 }
+.destination{
+    text-align: center;
+}
+
+.destination h3{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+.location-container{
+display: grid;
+grid-template-columns: repeat(12,1fr) ;
+grid-template-rows: repeat(3,1fr);
+gap: 20px;
+
+width: 1200px;
+margin: 0 auto;
+
+}
+.location-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.grid-item-1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+.grid-item-2{
+    grid-column:7/span 6 ;
+    grid-row: 1/span 1;
+}
+.grid-item-3{
+    grid-column:1/span 4 ;
+    grid-row: 2/span 1;
+}
+.grid-item-4{
+    grid-column:5/span 5 ;
+    grid-row: 2/span 1;
+}
+.grid-item-5{
+    grid-column:10/span 3 ;
+    grid-row: 2/span 1;
+}
+.grid-item-6{
+    grid-column:1/span 5 ;
+    grid-row: 3/span 1
+}
+.grid-item-7{
+    grid-column:6/span 7 ;
+    grid-row: 3/span 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -161,6 +246,12 @@ color: #FFF;
         width: 100%;
     }
     
+.location-container{
+    display: block;
+    width: 100%;
+    
+}
+
         
   
 }
